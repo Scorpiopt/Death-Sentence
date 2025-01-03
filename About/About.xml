@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+    <name>Death-Sentence</name>
+    <author>Scorpio</author>
+    <packageId>Scorpio.DeathSentence</packageId>
+    <description>This mod adds an order tool to execute downed enemies.</description>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+        <li>Ludeon.RimWorld.Anomaly</li>
+        <li>brrainz.harmony</li>
+    </loadAfter>
+</ModMetaData>
