@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <JobDef>
+        <defName>ExecuteDownedEnemy</defName>
+        <driverClass>DeathSentence.JobDriver_ExecuteDownedEnemy</driverClass>
+        <reportString>executing TargetA.</reportString>
+        <alwaysShowWeapon>True</alwaysShowWeapon>
+    </JobDef>
+
+</Defs>

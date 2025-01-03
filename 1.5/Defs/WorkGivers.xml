@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WorkGiverDef>
+        <defName>ExecuteDownedEnemy</defName>
+        <label>execute downed enemies</label>
+        <giverClass>DeathSentence.WorkGiver_ExecuteDownedEnemy</giverClass>
+        <workType>Warden</workType>
+        <verb>execute</verb>
+        <gerund>executing</gerund>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+    </WorkGiverDef>
+
+</Defs>
