@@ -8,4 +8,10 @@
         <alwaysShowWeapon>True</alwaysShowWeapon>
     </JobDef>
 
+    <DesignationDef>
+        <defName>ExecutionOrder</defName>
+        <texturePath>UI/ExecutionOrder</texturePath>
+        <targetType>Thing</targetType>
+    </DesignationDef>
+
 </Defs>

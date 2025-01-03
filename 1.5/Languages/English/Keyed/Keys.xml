@@ -3,5 +3,6 @@
 
     <DesignatorExecuteDownedEnemy>Execute</DesignatorExecuteDownedEnemy>
     <DesignatorExecuteDownedEnemyDesc>Execute downed enemies</DesignatorExecuteDownedEnemyDesc>
-
+    <MessageMustDesignateDownedEnemy>Must designate downed enemy.</MessageMustDesignateDownedEnemy>
+    
 </LanguageData>
