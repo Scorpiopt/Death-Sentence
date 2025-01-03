@@ -2,7 +2,7 @@
 <LanguageData>
 
     <DesignatorExecuteDownedEnemy>Execute</DesignatorExecuteDownedEnemy>
-    <DesignatorExecuteDownedEnemyDesc>Execute downed enemies</DesignatorExecuteDownedEnemyDesc>
+    <DesignatorExecuteDownedEnemyDesc>Execute a downed enemy.</DesignatorExecuteDownedEnemyDesc>
     <MessageMustDesignateDownedEnemy>Must designate downed enemy.</MessageMustDesignateDownedEnemy>
-    
+
 </LanguageData>
