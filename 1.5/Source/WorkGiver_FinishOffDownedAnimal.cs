@@ -4,7 +4,7 @@ using Verse.AI;
 
 namespace DeathSentence
 {
-	public class WorkGiver_ExecuteDownedEnemy : WorkGiver_Scanner
+	public class WorkGiver_FinishOffDownedAnimal : WorkGiver_Scanner
 	{
 		public override ThingRequest PotentialWorkThingRequest
 		{
@@ -38,16 +38,12 @@ namespace DeathSentence
 			{
 				return false;
 			}
-			if (target.RaceProps.Humanlike is false)
+			if (target.RaceProps.Humanlike)
 			{
 				return false;
 			}
 			if (pawn != null)
 			{
-				if (target.HostileTo(pawn) is false)
-				{
-					return false;
-				}
 				if (!pawn.CanReserve(target, 1, -1, null, forced))
 				{
 					return false;
@@ -58,7 +54,7 @@ namespace DeathSentence
 
 		public override Job JobOnThing(Pawn pawn, Thing t, bool forced = false)
 		{
-			Job job = JobMaker.MakeJob(DefsOf.ExecuteDownedEnemy, t);
+			Job job = JobMaker.MakeJob(DefsOf.FinishOffDownedAnimal, t);
 			return job;
 		}
 	}

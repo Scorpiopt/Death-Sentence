@@ -13,4 +13,16 @@
         </requiredCapacities>
     </WorkGiverDef>
 
+    <WorkGiverDef>
+        <defName>FinishOffDownedAnimal</defName>
+        <label>finish off downed animals</label>
+        <giverClass>DeathSentence.WorkGiver_FinishOffDownedAnimal</giverClass>
+        <workType>Hunting</workType>
+        <verb>finish off</verb>
+        <gerund>finishing off</gerund>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+    </WorkGiverDef>
+
 </Defs>

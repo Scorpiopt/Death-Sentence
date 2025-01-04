@@ -8,6 +8,13 @@
         <alwaysShowWeapon>True</alwaysShowWeapon>
     </JobDef>
 
+    <JobDef>
+        <defName>FinishOffDownedAnimal</defName>
+        <driverClass>DeathSentence.JobDriver_ExecuteDownedEnemy</driverClass>
+        <reportString>finishing off TargetA.</reportString>
+        <alwaysShowWeapon>True</alwaysShowWeapon>
+    </JobDef>
+
     <DesignationDef>
         <defName>ExecutionOrder</defName>
         <texturePath>UI/ExecutionOrder</texturePath>
