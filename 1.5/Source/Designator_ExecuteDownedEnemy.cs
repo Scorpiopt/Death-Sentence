@@ -9,7 +9,7 @@ namespace DeathSentence
 	public class Designator_ExecuteDownedEnemy : Designator
 	{
 		public override int DraggableDimensions => 2;
-		public override DesignationDef Designation => DesignationDefOf.ExecutionOrder;
+		public override DesignationDef Designation => DefsOf.ExecutionOrder;
 		public Designator_ExecuteDownedEnemy()
 		{
 			defaultLabel = "DesignatorExecuteDownedEnemy".Translate();

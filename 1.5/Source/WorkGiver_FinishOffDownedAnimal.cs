@@ -24,6 +24,10 @@ namespace DeathSentence
 
 		public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
 		{
+			if (pawn.Map.designationManager.DesignationOn(t, DefsOf.ExecutionOrder) == null)
+			{
+				return false;
+			}
 			return HasJobOn(pawn, t, forced);
 		}
 
@@ -38,7 +42,7 @@ namespace DeathSentence
 			{
 				return false;
 			}
-			if (target.RaceProps.Humanlike)
+			if (target.RaceProps.Humanlike || target.Faction == Faction.OfPlayer)
 			{
 				return false;
 			}
