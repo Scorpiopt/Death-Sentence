@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<DesignatorExecuteDownedEnemy>Execute</DesignatorExecuteDownedEnemy>
+<DesignatorExecuteDownedAnimal>Finish off</DesignatorExecuteDownedAnimal>
+<DesignatorExecuteDownedEnemyDesc>Execute a downed enemy.</DesignatorExecuteDownedEnemyDesc>
+<DesignatorExecuteDownedAnimalDesc>Execute a downed creature.</DesignatorExecuteDownedAnimalDesc>
+    <MessageMustDesignateDownedEnemy>Must designate downed enemy or creature.</MessageMustDesignateDownedEnemy>
+
+</LanguageData>

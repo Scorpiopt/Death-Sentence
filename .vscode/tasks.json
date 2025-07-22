@@ -13,7 +13,7 @@
             "command": "dotnet",
             "args": [
                 "build",
-                "${workspaceFolder}/1.5/Source/DeathSentence.csproj"
+                "${workspaceFolder}/1.6/Source/DeathSentence.csproj"
             ],
             "problemMatcher": "$msCompile",
             "group": {
